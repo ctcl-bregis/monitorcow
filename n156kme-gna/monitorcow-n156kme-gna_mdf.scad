@@ -137,21 +137,21 @@ module base() {
             }
             // With 0 Y = Bottom, 0 X = Left
             // Bottom Left Post
-            translate([case_outer_wall_width, case_outer_wall_width, case_bottom_height]) {
-                cube(post_dims);
-            }
+            //translate([case_outer_wall_width, case_outer_wall_width, case_bottom_height]) {
+            //    cube(post_dims);
+            //}
             // Bottom Right Post
-            translate([case_outer_wall_width + box_total_inner_size[0] - case_post_size, case_outer_wall_width, case_bottom_height]) {
-                cube(post_dims);
-            }
+            //translate([case_outer_wall_width + box_total_inner_size[0] - case_post_size, case_outer_wall_width, case_bottom_height]) {
+            //    cube(post_dims);
+            //}
             // Top Left Post
-            translate([case_outer_wall_width, case_outer_wall_width + box_total_inner_size[1] - case_post_size, case_bottom_height]) {
-                cube(post_dims);
-            }
+            //translate([case_outer_wall_width, case_outer_wall_width + box_total_inner_size[1] - case_post_size, case_bottom_height]) {
+            //    cube(post_dims);
+            //}
             // Top Right Post
-            translate([case_outer_wall_width + box_total_inner_size[0] - case_post_size, case_outer_wall_width + box_total_inner_size[1] - case_post_size, case_bottom_height]) {
-                cube(post_dims);
-            }
+            //translate([case_outer_wall_width + box_total_inner_size[0] - case_post_size, case_outer_wall_width + box_total_inner_size[1] - case_post_size, case_bottom_height]) {
+            //    cube(post_dims);
+            //}
         }
         // PCB connector cutout
         translate([box_dims[0] - case_outer_wall_width - 1, case_outer_wall_width + case_post_size, case_bottom_height + pcb_standoff_height - 2]) {

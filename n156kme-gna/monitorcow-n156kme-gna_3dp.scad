@@ -2,7 +2,7 @@
 // File: monitorcow-n156kme-gna.scad
 // Purpose: Case design
 // Created: October 18, 2024
-// Modified: November 5, 2024
+// Modified: November 8, 2024
 
 // Units - mm
 // X - Width
@@ -15,7 +15,7 @@
 // "lcdcover" - Display cover layer
 // "all" - Show everything
 // "allexp" - Show everything, exploded view
-show = "lcdcover";
+show = "base";
 exp_dist = 75;
 
 // Dimensions
@@ -65,7 +65,7 @@ pcb2_width = 51;
 pcb2_length = 28;
 
 // Distance between PCBs
-pcb_sep_dist = 5;
+pcb_sep_dist = 10;
 
 // Standoff parameters
 // length of both sides
