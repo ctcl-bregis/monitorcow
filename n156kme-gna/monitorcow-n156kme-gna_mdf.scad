@@ -2,7 +2,7 @@
 // File: monitorcow-n156kme-gna_mdf.scad
 // Purpose: Case design, optimized for wood carving
 // Created: October 18, 2024
-// Modified: November 8, 2024
+// Modified: November 16, 2024
 
 // Units - mm
 // X - Width
@@ -15,7 +15,7 @@
 // "lcdcover" - Display cover layer
 // "all" - Show everything
 // "allexp" - Show everything, exploded view
-show = "base";
+show = "allexp";
 exp_dist = 75;
 
 // Dimensions
@@ -38,7 +38,7 @@ case_inner_wall_width = 10;
 
 // Outer structural wall of the case
 // WARNING: This variable changes the size of the case
-case_outer_wall_width = 5;
+case_outer_wall_width = 10;
 // Size of the posts that the display mount bolts to
 // WARNING: This variable changes the size of the case and LCD mount
 case_post_size = 10;
@@ -81,7 +81,7 @@ bolt_dia = 3 + 0.6;
 
 // Support count
 support_width = case_inner_wall_width;
-disp_y_axis_supports = 2;
+disp_y_axis_supports = 1;
 
 // == Variable Assignment Section ==
 // Height of the mount part
